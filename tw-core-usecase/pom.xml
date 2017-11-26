@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>twanalyzer</artifactId>
+        <groupId>com.twanalyzer</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>tw-core-usecase</artifactId>
+
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <tw-core-model.version>1.0-SNAPSHOT</tw-core-model.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.twanalyzer</groupId>
+            <artifactId>tw-core-model</artifactId>
+         <version>${tw-core-model.version}</version>
+        </dependency>
+    </dependencies>
+</project>

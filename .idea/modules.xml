@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TWAnalyzer.iml" filepath="$PROJECT_DIR$/TWAnalyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tw-configuration/tw-configuration.iml" filepath="$PROJECT_DIR$/tw-configuration/tw-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tw-core-model/tw-core-model.iml" filepath="$PROJECT_DIR$/tw-core-model/tw-core-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tw-core-usecase/tw-core-usecase.iml" filepath="$PROJECT_DIR$/tw-core-usecase/tw-core-usecase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tw-data-provider/tw-data-provider.iml" filepath="$PROJECT_DIR$/tw-data-provider/tw-data-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tw-entrypoint/tw-entrypoint.iml" filepath="$PROJECT_DIR$/tw-entrypoint/tw-entrypoint.iml" />
+    </modules>
+  </component>
+</project>

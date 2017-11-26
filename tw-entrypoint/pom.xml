@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>twanalyzer</artifactId>
+        <groupId>com.twanalyzer</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>tw-entrypoint</artifactId>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+         <hbc.version>2.2.0</hbc.version>
+        <tw-data-provider.version>1.0-SNAPSHOT</tw-data-provider.version>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.twitter</groupId>
+            <artifactId>hbc-core</artifactId>
+            <version>${hbc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.twitter</groupId>
+            <artifactId>hbc-twitter4j</artifactId>
+            <version>${hbc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.twanalyzer</groupId>
+            <artifactId>tw-data-provider</artifactId>
+            <version>${tw-data-provider.version}</version>
+         </dependency>
+
+    </dependencies>
+
+</project>

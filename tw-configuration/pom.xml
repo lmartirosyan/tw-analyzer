@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>twanalyzer</artifactId>
+        <groupId>com.twanalyzer</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>tw-configuration</artifactId>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <tw-entrypoint.version>1.0-SNAPSHOT</tw-entrypoint.version>
+        <tw-data-provider.version>1.0-SNAPSHOT</tw-data-provider.version>
+        <powermock.version>1.7.0</powermock.version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.twanalyzer</groupId>
+            <artifactId>tw-entrypoint</artifactId>
+            <version>${tw-entrypoint.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.twanalyzer</groupId>
+            <artifactId>tw-data-provider</artifactId>
+            <version>${tw-data-provider.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <!--<scope>test</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-api-mockito</artifactId>
+            <version>${powermock.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+
+
+
+    </dependencies>
+
+</project>

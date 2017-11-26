@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configuration" />
+        <module name="core-model" />
+        <module name="core-usecase" />
+        <module name="data-provider" />
+        <module name="entrypoint" />
+        <module name="tw-configuration" />
+        <module name="tw-core-model" />
+        <module name="tw-core-usecase" />
+        <module name="tw-data-provider" />
+        <module name="tw-entrypoint" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configuration" target="1.5" />
+      <module name="core-model" target="1.5" />
+      <module name="core-usecase" target="1.5" />
+      <module name="data-provider" target="1.5" />
+      <module name="entrypoint" target="1.5" />
+      <module name="tw-configuration" target="1.8" />
+      <module name="tw-core-model" target="1.8" />
+      <module name="tw-core-usecase" target="1.8" />
+      <module name="tw-data-provider" target="1.8" />
+      <module name="tw-entrypoint" target="1.8" />
+      <module name="TWAnalyzer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
