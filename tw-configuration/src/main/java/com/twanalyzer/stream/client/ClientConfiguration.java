@@ -11,7 +11,12 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.Properties;
 public class ClientConfiguration{
-
+    /**
+     * Returns configuration object
+     * of twitter account
+     * @param properties
+     * @return
+     */
 
     public static ClientConf getConfiguration(Properties properties){
 

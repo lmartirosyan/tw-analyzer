@@ -29,9 +29,7 @@ public class EntityWrapper {
     }
 
 
-    protected EntityWrapper(){}
-
-    protected EntityWrapper(Builder builder) {
+    private EntityWrapper(Builder builder) {
 
         this.logger=builder.logger;
         this.streamData=builder.streamData;

@@ -27,6 +27,8 @@ public class ClientBuilder {
     }
 
     /**
+     * Builds twitter application
+     * configuration
      * @return
      */
     public Client build() {

@@ -1,7 +1,6 @@
-package inject;
+package com.twanalyzer.inject;
 
 import com.google.inject.AbstractModule;
-import com.twanalyzer.bus.MessageBusProvider;
 import com.twanalyzer.bus.MessageBusRepo;
 import com.twanalyzer.db.StreamDataRepo;
 import com.twanalyzer.repasitory.MessageBus;
@@ -14,6 +13,7 @@ import com.twanalyzer.wrapper.LoggerWrapper;
  * Created by lilit.
  */
 public class InjectionModule extends AbstractModule {
+
     @Override
     protected void configure() {
         bind(Logger.class).toInstance(LoggerWrapper.getInstance());

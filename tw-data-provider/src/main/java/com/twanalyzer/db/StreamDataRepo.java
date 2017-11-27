@@ -65,11 +65,18 @@ public class StreamDataRepo implements StreamData {
 
     }
 
+    /**
+     * increments value
+     * @param key
+     */
     @Override
     public void incr(String key) {
-        this.jedis.incr(key);
+       this.jedis.incr(key);
     }
 
+    /**
+     *  Flushes data from db
+     */
     @Override
     public void flush() {
         this.jedis.flushAll();

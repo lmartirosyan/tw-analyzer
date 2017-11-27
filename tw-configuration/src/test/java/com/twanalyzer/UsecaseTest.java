@@ -2,12 +2,11 @@ package com.twanalyzer;
 
 import com.twanalyzer.db.StreamDataRepo;
 import com.twanalyzer.entity.EntityWrapper;
-import com.twanalyzer.enums.DBProperty;
 import com.twanalyzer.enums.StoragePropertyFile;
 import com.twanalyzer.inject.Provider;
 import com.twanalyzer.processor.ClientProcessor;
 import com.twanalyzer.property.PropertyLoader;
-import inject.Inject;
+import com.twanalyzer.inject.Inject;
 import junit.framework.TestCase;
 import org.junit.After;
 import org.junit.Before;

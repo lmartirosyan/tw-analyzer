@@ -1,10 +1,9 @@
-package inject;
+package com.twanalyzer.inject;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.twanalyzer.bus.MessageBusProvider;
 import com.twanalyzer.db.StreamDataProvider;
-import com.twanalyzer.inject.Provider;
 import com.twanalyzer.wrapper.Logger;
 import com.twanalyzer.wrapper.LoggerProvider;
 import com.twanalyzer.wrapper.LoggerWrapper;

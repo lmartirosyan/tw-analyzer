@@ -5,6 +5,10 @@ import com.twitter.hbc.httpclient.auth.Authentication;
 
 import java.util.concurrent.BlockingQueue;
 
+/**
+ * Client configuration bean
+ * keeps twitter client configurations
+ */
 public class ClientConf {
     private StatusesFilterEndpoint endpoint;
     private BlockingQueue<String> queue;

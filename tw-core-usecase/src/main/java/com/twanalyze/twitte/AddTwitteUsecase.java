@@ -1,6 +1,7 @@
 package com.twanalyze.twitte;
 
 import com.twanalyzer.entity.EntityWrapper;
+import com.twanalyzer.entity.StreamDataBean;
 
 public class AddTwitteUsecase extends  UseCase{
 
@@ -26,13 +27,14 @@ public class AddTwitteUsecase extends  UseCase{
     }
 
     /**
-     *
-     * @param name
-     * @param timestamp
+     *  Use case for storing
+     *  data to  DB
+     *  currently we are using Redis
+     * @param bean
      */
-    public void add(String name, long timestamp){
-        String aggTimestamp = timestamp / 60000 + "";
-        String key=getKey("_",name, aggTimestamp);
+    public void add(StreamDataBean bean){
+        String aggTimestamp = bean.getTimestamp() / 60000 + "";
+        String key=getKey("_",bean.getName(), aggTimestamp);
         streamData.incr(key);
         logger.info("stored by key"+key);
 

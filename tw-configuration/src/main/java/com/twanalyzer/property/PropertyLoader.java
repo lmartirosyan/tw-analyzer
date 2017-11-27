@@ -23,8 +23,8 @@ public  class  PropertyLoader {
     }
 
     /**
-     *
-      * @param propertyFile
+     *  loads property from file
+     * @param propertyFile
      * @return
      */
     public static Properties loadProperties(String propertyFile) {
