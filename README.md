@@ -32,6 +32,7 @@ redis-cli
 
 # Redis Wrapper
 Please also check out my Dummy  project which wraps Redis, so you can see what is stored in redis.
+https://github.com/lmartirosyan/redis-wrapper
 
 
 # Kafka Structure
