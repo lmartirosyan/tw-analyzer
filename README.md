@@ -1,5 +1,4 @@
 # tw-analyzer
-# Twitte Analyzer
 
 Twitte Analayzer is simple project which takes data from Twitter Streaming api aggrigates by minute and stores in Redis DB or pushes to Kafka.
 Project Designed by Clean architeture, which allows us to isolate modules from each other.
